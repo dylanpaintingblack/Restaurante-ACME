@@ -1,0 +1,39 @@
+/* estilo por tipo */
+.label{
+}
+.button{
+-fx-background-color: linear-gradient( #fffb00,#1100ff);
+-fx-background-radius: 30;
+-fx-background-insets: 0;
+-fx-text-fill: white;
+}
+.combo-box{
+    
+}
+.check-box{
+   
+}
+.tab-pane{
+-fx-background-color: linear-gradient(rgb(231, 231, 231),rgb(77, 77, 77));
+}
+.radio-button{
+   
+}
+.text-field{
+   
+}
+.list-view{
+   
+}
+/* estilo por id */
+#tab-1{
+    -fx-font: bold italic 8pt "Verdana";
+    -fx-background-color: rgba(163,133,97, 0.986);
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+/* estilo por clase */
+.tab-2{
+    -fx-font: bold italic 8pt "Verdana";
+    -fx-background-color: rgba(163,133,97, 0.986);
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );     
+}
